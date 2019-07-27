@@ -219,7 +219,7 @@ while ($row = $get->fetch_assoc())
 function add()
 {
 Swal.fire({
-		title: 'Edit',
+		title: 'Add',
 		html: '<input type="text" id="newName" placeholder="Name">' +
 		'<select name="work" id="newWork">'+
 		'<option value="Frontend Dev">Frontend Dev</option>'+
